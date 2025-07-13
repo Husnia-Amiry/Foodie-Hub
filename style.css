@@ -1,0 +1,106 @@
+h1,h2,h3,h4,h5,h6{
+ font-family: montserrat; 
+}
+#brand{
+font-family: montserrat;
+font-size: 1.5rem;
+font-weight: bold;
+margin-left:1rem;
+}
+.navbar-nav .nav-link {
+  color:#dc3545 !important;
+  border-radius: 5px;
+  margin-right: 1rem;
+  
+}
+.navbar-nav .nav-link.active {
+  color: rgb(9, 8, 8) !important;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #212529 !important;
+  color:#f9f7f7 !important;
+}
+.colort{
+  color: #dc3545;
+  
+}
+#home{
+    background: url(img/1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+      justify-content: center;
+}
+/* .fontt{
+  font-family: Montserrat;
+  font-size: large;
+} */
+.btn{
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#home h1 {
+   font-weight: bold;
+  font-family:montserrat;
+  animation: fadeSlideUp 1s ease-out forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+#home p {
+    font-family: Montserrat;
+  font-size: large;
+  animation: fadeSlideUp 1s ease-out forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+#home a {
+  animation: fadeSlideUp 1s ease-out forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
+}
+#resturant .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background-color: #212529 !important;
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+}
+/* Menu page */
+#menu .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background-color: #fb8005 !important;
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+}
+/* Menu page */
+#oform{
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+}
+.con-form{
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.orange{
+  background-color:#fb8005 !important ;
+  border-color: #fb8005;
+  color: white;
+}
+.orange:hover{
+  color: white;
+}

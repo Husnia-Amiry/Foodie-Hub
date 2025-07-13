@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="fav.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-light sticky-top">
+        <a class="navbar-brand text-danger" id="brand" href="">FoodieHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#resturant">Resturants</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="menu.html">Menu list</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#footer">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <!-- Menu section -->
+    <section id="menu">
+        <div class="container my-5 pb-4">
+            <h2 class="text-center mb-4">Our Menu</h2>
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card h-100">
+                        <img src="img/burger.jpg" class="card-img-top h-50 img-fluid" alt="Cheese Burger">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cheese Burger</h5>
+                            <p class="card-text">Juicy beef patty, cheddar cheese, fresh lettuce and tomato.</p>
+                            <p class="fw-bold text-danger">$8.99</p>
+                            <a href="index.html#oform" class="btn btn-outline-success">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card h-100">
+                        <img src="img/pizza.jpg" class="card-img-top h-50 img-fluid" alt="Margherita Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text">Classic pizza with tomato sauce, mozzarella, and basil.</p>
+                            <p class="fw-bold text-danger">$10.50</p>
+                            <a href="index.html#oform" class="btn btn-outline-success">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card h-100">
+                        <img src="img/pasta.jpg" class="card-img-top h-50 img-fluid" alt="Creamy Alfredo Pasta">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alfredo Pasta</h5>
+                            <p class="card-text">Creamy Alfredo sauce with parmesan over fettuccine noodles.</p>
+                            <p class="fw-bold text-danger">$9.75</p>
+                            <a href="#" class="btn btn-outline-dark">Unavailable</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card h-100">
+                        <img src="img/salad.jpg" class="card-img-top h-50 img-fluid" alt="Fresh Garden Salad">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Garden Salad</h5>
+                            <p class="card-text">A healthy mix of greens, cucumber, cherry tomatoes and vinaigrette.</p>
+                            <p class="fw-bold text-danger">$6.50</p>
+                            <a href="index.html#oform" class="btn btn-outline-success">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-light text-dark pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5>Contact Us</h5>
+                    <p class="mb-1"><i class="fa-solid fa-envelope me-2"></i>contact@foodiehub.com</p>
+                    <p class="mb-1"><i class="fa-solid fa-phone me-2"></i>+93 798 567 890</p>
+                    <p><i class="fa-solid fa-location-dot me-2"></i>Herat, Afghanistan</p>
+                </div>
+                <div class="col-md-6 mb-4 text-left">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-dark me-3"><i class="fa-brands fa-square-facebook fs-4"></i></a>
+                    <a href="#" class="text-dark me-3"><i class="fa-brands fa-square-instagram fs-4"></i></a>
+                    <a href="#" class="text-dark me-3"><i class="fa-brands fa-square-x-twitter fs-4"></i></a>
+                    <a href="#" class="text-dark"><i class="fa-brands fa-youtube fs-4"></i></a>
+                </div>
+            </div>
+            <div class="border-top pt-3 mt-3 text-center">
+            <p class="mb-0">&copy; 2025 Foodie Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>  
+
+</body>
+</html>
